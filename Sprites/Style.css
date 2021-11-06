@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: darkorange;
+}
+footer {
+    width: 100%;
+    margin: 0 auto;
+
+    height: 150px;
+    padding: 30px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 1em;
+}
+.systems a{
+    border-radius: 100%;
+    transition: all 0.2s ease-out;
+    position: relative;
+    left:30%;
+}
+img{
+    height:250px;
+    width:250px;
+    border-radius: 100%;
+}
+.first:hover{ box-shadow: 0 10px 10px darkblue;padding:10px; }
+.social a {
+    background:url("images/sprites_image.png");
+    background-repeat:no-repeat;
+    height:49px;
+    width:49px;
+    display: inline-block;
+    border-radius: 100%;
+    transition: all 2.2s ease-out;
+    position: relative;
+    left:35%;
+}
+a.facebook { background-position: left top;}
+a.net { background-position:-57px top;}
+a.linkid {background-position:-115px top; }
+a.pin{ background-position: -174px top;}
+a.share{ background-position: -228px top;}
+a.youtube{ background-position: -282px top;}
+a:hover{ background-position-y:bottom;}
